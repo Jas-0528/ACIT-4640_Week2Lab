@@ -58,5 +58,15 @@ In Class Lab -  Augustin Nguyen, Jasmeen Sandhu, Maksym Buhai
     OUTER
     ```
     
-8. Run the scripts
-9. Verify that nginx is working
+8.Change the premission of the scripts to be executable
+    ```
+    sudo chmod 700 ./nginx-install
+    sudo chmod 700 ./document-write
+    ```
+9. Run the scripts
+   ```
+    sudo ./nginx-install
+    sudo ./document-write
+   ``` 
+   
+10. Verify that nginx is working
